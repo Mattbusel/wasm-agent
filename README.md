@@ -44,6 +44,12 @@ println!("Steps taken: {}", result.trace.len());
 wasm-agent = { git = "https://github.com/Mattbusel/wasm-agent" }
 ```
 
+Or one-liner:
+
+```ash
+cargo add --git https://github.com/Mattbusel/wasm-agent
+```
+
 ## Test coverage
 
 ```bash
